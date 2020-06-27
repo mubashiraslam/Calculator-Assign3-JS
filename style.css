@@ -20,15 +20,14 @@ body{
     box-shadow: 0px 0px 20px 4px #bdbdbd;
 }
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .main{
-        border: 1px solid white;
-        margin: 30px 50px;
-        width: 380px;
+        padding: 0px !important;
+        margin: 30px auto;
         background-color: white;
         box-shadow: 0px 0px 20px 4px #bdbdbd;
     }
-} */
+}
 
 .resultField{
     margin: auto;
