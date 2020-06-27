@@ -23,30 +23,30 @@
         <div class="buttons">
             <div class="row">
                 <div class="col">
-                    <button class="clear">C</button>
+                    <button class="clear" onclick="clearAll();">C</button>
                 </div>
             </div>
             <div>
-                <button class="smallBtns">7</button>
-                <button class="smallBtns">8</button>
-                <button class="smallBtns">9</button>
-                <button class="smallBtns greyColor">X</button>
+                <button class="smallBtns" onclick="getValue(7);">7</button>
+                <button class="smallBtns" onclick="getValue(8);">8</button>
+                <button class="smallBtns" onclick="getValue(9);">9</button>
+                <button class="smallBtns greyColor" onclick="getValue('*');">X</button>
             </div>
             <div>
-                <button class="smallBtns">4</button>
-                <button class="smallBtns">5</button>
-                <button class="smallBtns">6</button>
-                <button class="smallBtns greyColor">-</button>
+                <button class="smallBtns" onclick="getValue(4);">4</button>
+                <button class="smallBtns" onclick="getValue(5);">5</button>
+                <button class="smallBtns" onclick="getValue(6);">6</button>
+                <button class="smallBtns greyColor" onclick="getValue('-');">-</button>
             </div>
             <div>
-                <button class="smallBtns">1</button>
-                <button class="smallBtns">2</button>
-                <button class="smallBtns">3</button>
-                <button class="smallBtns greyColor">+</button>
+                <button class="smallBtns" onclick="getValue(1);">1</button>
+                <button class="smallBtns" onclick="getValue(2);">2</button>
+                <button class="smallBtns" onclick="getValue(3);">3</button>
+                <button class="smallBtns greyColor" onclick="getValue('+');">+</button>
             </div>
             <div>
-                <button class="smallBtns">0</button>
-                <button class="answerBtn">=</button>
+                <button class="smallBtns" onclick="getValue(0);">0</button>
+                <button class="answerBtn" onclick="getAnswer();">=</button>
             </div>
         </div>
     </div>      
